@@ -3,8 +3,8 @@
 def histogram():
     
     result={}
-    #input_name=input("Enter file name:")
-    txt=open('test.txt','r')
+    txt=open(input("Enter file name:"),'r')
+    #txt=open('test.txt','r')
     texts=txt.readlines()
     for i in range(len(texts)):
         #print(texts[i].split())
