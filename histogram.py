@@ -22,5 +22,5 @@ def histogram():
     
     
     #print("Output: ",result)
-
+#merged Error
 histogram()
